@@ -19,7 +19,13 @@ const routes = [
     path: "/lifecycle",
     name: "lifecycle",
     component: () => import(/* webpackChunkName: "lifecycle" */ '../views/composition/lifecycle.vue')
+  },
+  {
+    path: "/todoList",
+    name: "todoList",
+    component: () => import(/* webpackChunkName: "todoList" */ '../views/todolist/todoList.vue')
   }
+
 ]
 
 const router = createRouter({
