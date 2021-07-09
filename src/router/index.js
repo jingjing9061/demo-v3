@@ -24,7 +24,34 @@ const routes = [
     path: "/todoList",
     name: "todoList",
     component: () => import(/* webpackChunkName: "todoList" */ '../views/todolist/todoList.vue')
+  },
+  {
+    path: "/test",
+    name: "test",
+    component: () => import(/* webpackChunkName: "test" */ '../views/composition/test.vue')
+  },
+  {
+    path: "/test2",
+    name: "test2",
+    component: () => import(/* webpackChunkName: "test2" */ '../views/composition/test2.vue')
+  },
+  {
+    path: "/Provide",
+    name: "Provide",
+    component: () => import(/* webpackChunkName: "Provide" */ '../views/composition/Provide.vue')
+  },
+  {
+    path: "/setup",
+    name: "setup",
+    component: () => import(/* webpackChunkName: "setup" */ '../views/composition/setup.vue')
+  },
+  {
+    path: "/teleport",
+    name: "teleport",
+    component: () => import(/* webpackChunkName: "setup" */ '../views/composition/Teleport.vue')
   }
+  
+
 
 ]
 
